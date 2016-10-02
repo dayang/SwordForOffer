@@ -1,5 +1,6 @@
 //实现单例模式
 // 单例模式1
+//构造函数返回return 如果时对象，则返回该对象，否则返回构造对象
 function Singleton1(){
     if(typeof Singleton1.instance === "object"){
         return Singleton1.instance;
