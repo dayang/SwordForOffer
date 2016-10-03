@@ -9,5 +9,13 @@ function TreeNode(val){
     this.right = null;
 }
 
+function printList(head) {
+    while(head != null){
+        console.log(head.val);
+        head = head.next;
+    }
+}
+
 exports.ListNode = ListNode;
 exports.TreeNode = TreeNode;
+exports.printList = printList;
