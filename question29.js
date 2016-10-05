@@ -10,6 +10,7 @@ var partition = require('./base').partition;
 /*
 如果把数组排序，则要找的数字就是中位数，即第 n/2 大的数字。
 利用找数组中第k大的数字的算法。时间复杂度O(n)
+该算法会修改输入的数组
  */
 function moreThanHalfNumRecursive(array){
     if(array.length == 0)

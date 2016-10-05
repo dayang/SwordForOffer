@@ -38,7 +38,7 @@ function partition(array, start, end){
         }
     }
     small++;
-    swap(small,end);
+    swap(array,small,end);
     return small;
 }
 

@@ -4,6 +4,7 @@
 所有数字中最小的一个。例如输入数组{3,32,321}，则打印出这3个数字能排成
 的最小数字321323
  */
+
 function printMinNumber(numbers){
     numbers.sort(function(a,b){
         var sa = a.toString(), sb = b.toString();
